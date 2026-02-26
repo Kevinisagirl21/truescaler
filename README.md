@@ -29,38 +29,38 @@ This is not production-ready, so tread lightly, and be careful.
 From the project directory (online install):
 
 ```bash
-bash install.sh
+./install.sh
 ```
 
 Or from an offline release bundle (no end-user dependency download):
 
 ```bash
-bash install.sh --bundle truescaler-bundle.tar.gz
+./install.sh --bundle truescaler-bundle.tar.gz
 ```
 
 Or directly from GitHub Releases (CI-built bundles):
 
 ```bash
-bash install.sh --from-github owner/repo
+./install.sh --from-github owner/repo
 ```
 
 Using release assets directly (installer script is published separately):
 
 ```bash
 curl -fsSL -o install.sh https://github.com/owner/repo/releases/download/v1.2.3/install.sh
-bash install.sh --from-github owner/repo --tag v1.2.3
+./install.sh --from-github owner/repo --tag v1.2.3
 ```
 
 Specific release tag:
 
 ```bash
-bash install.sh --from-github owner/repo --tag v1.2.3
+./install.sh --from-github owner/repo --tag v1.2.3
 ```
 
 Install HEIC-enabled release asset (if published):
 
 ```bash
-bash install.sh --from-github owner/repo --bundle-name truescaler-bundle-heif.tar.gz
+./install.sh --from-github owner/repo --bundle-name truescaler-bundle-heif.tar.gz
 ```
 
 This installs:
@@ -78,7 +78,7 @@ export PATH="$HOME/.local/bin:$PATH"
 Optional HEIC dependency install:
 
 ```bash
-INCLUDE_HEIF=1 bash install.sh
+INCLUDE_HEIF=1 ./install.sh
 ```
 
 ## Build End-User Offline Bundle (maintainers)
