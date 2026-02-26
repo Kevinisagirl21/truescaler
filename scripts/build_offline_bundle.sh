@@ -28,7 +28,7 @@ trap cleanup EXIT
 bundle_dir="$tmp_root/$BUNDLE_NAME"
 mkdir -p "$bundle_dir/wheels"
 
-for f in install.sh truescaler.py find_scale.py README.md; do
+for f in install.sh truescaler.py README.md; do
   if [[ ! -f "$REPO_ROOT/$f" ]]; then
     echo "Error: missing required file: $f" >&2
     exit 1
@@ -56,4 +56,3 @@ echo "  $DIST_DIR/$BUNDLE_NAME.tar.gz"
 echo
 echo "End-user install example:"
 echo "  bash install.sh --bundle $DIST_DIR/$BUNDLE_NAME.tar.gz"
-

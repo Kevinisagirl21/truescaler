@@ -2,8 +2,8 @@
 """Combined pixel-art scaler and whitespace cropper CLI.
 
 Usage examples:
-  python3 find_scale.py input.heic
-  python3 find_scale.py input.png --output name --out-dir downsamples/
+  python3 truescaler.py input.heic
+  python3 truescaler.py input.png --output name --out-dir downsamples/
 """
 
 from __future__ import annotations
@@ -22,7 +22,7 @@ try:
 except Exception:  # pragma: no cover - optional dependency
     pillow_heif: Any = None
 import os
-from typing import List, Tuple, Optional, Dict, Any, cast
+from typing import List, Tuple, Optional, Dict, cast
 
 
 def run_lengths_line(line: np.ndarray) -> List[int]:

@@ -4,9 +4,9 @@ set -euo pipefail
 # TrueScaler single-command installer.
 # Default install layout:
 #   ~/.local/share/truescaler/venv
-#   ~/.local/share/truescaler/src/{truescaler.py,find_scale.py}
+#   ~/.local/share/truescaler/src/truescaler.py
 #   ~/.local/share/truescaler/wheels/*
-#   ~/.local/bin/{truescaler,truescaler-find-scale}
+#   ~/.local/bin/truescaler
 #
 # Optional offline bundle usage:
 #   bash install.sh --bundle truescaler-bundle.tar.gz
@@ -154,8 +154,8 @@ if [[ -n "$BUNDLE_ARCHIVE" ]]; then
   fi
 fi
 
-if [[ ! -f "$SOURCE_ROOT/truescaler.py" || ! -f "$SOURCE_ROOT/find_scale.py" ]]; then
-  echo "Error: could not locate truescaler.py/find_scale.py in source root: $SOURCE_ROOT" >&2
+if [[ ! -f "$SOURCE_ROOT/truescaler.py" ]]; then
+  echo "Error: could not locate truescaler.py in source root: $SOURCE_ROOT" >&2
   exit 1
 fi
 
@@ -176,7 +176,6 @@ mkdir -p "$APP_DIR" "$BIN_DIR"
 
 mkdir -p "$APP_DIR/src"
 install -m 755 "$SOURCE_ROOT/truescaler.py" "$APP_DIR/src/truescaler.py"
-install -m 755 "$SOURCE_ROOT/find_scale.py" "$APP_DIR/src/find_scale.py"
 
 if [[ -d "$SOURCE_ROOT/wheels" ]]; then
   rm -rf "$APP_DIR/wheels"
@@ -240,18 +239,10 @@ exec "$APP_DIR/venv/bin/python" "$APP_DIR/src/truescaler.py" "\$@"
 EOF
 chmod +x "$BIN_DIR/truescaler"
 
-cat >"$BIN_DIR/truescaler-find-scale" <<EOF
-#!/usr/bin/env bash
-set -euo pipefail
-exec "$APP_DIR/venv/bin/python" "$APP_DIR/src/find_scale.py" "\$@"
-EOF
-chmod +x "$BIN_DIR/truescaler-find-scale"
-
 echo
 echo "Install complete."
 echo "Commands:"
 echo "  $BIN_DIR/truescaler"
-echo "  $BIN_DIR/truescaler-find-scale"
 echo
 if [[ ":$PATH:" != *":$BIN_DIR:"* ]]; then
   echo "Note: $BIN_DIR is not currently in PATH."

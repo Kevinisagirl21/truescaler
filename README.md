@@ -2,10 +2,9 @@
 
 TrueScaler detects pixel-art scale, crops whitespace/background, and downsamples images to true pixel size.
 
-## Which script should I use?
+## CLI
 
-- `truescaler.py` (primary): full CLI, directory scanning, JSON input, progress control, output format selection.
-- `find_scale.py` (secondary): lightweight single-purpose CLI with fewer options.
+- `truescaler.py`: full CLI with directory scanning, JSON input, progress control, and output format selection.
 
 ## Requirements
 
@@ -51,7 +50,6 @@ This installs:
 - virtualenv + dependencies under `~/.local/share/truescaler`
 - commands in `~/.local/bin`:
   - `truescaler`
-  - `truescaler-find-scale`
 
 If `~/.local/bin` is not on your `PATH`, add:
 
@@ -120,18 +118,9 @@ Examples:
 - `sprite_16x16.png`
 - `character_32x48.bmp`
 
-## Secondary CLI (`find_scale.py`)
-
-```bash
-truescaler-find-scale input.png
-truescaler-find-scale input.png --out-dir downsamples/
-truescaler-find-scale input.png --no-save
-```
-
 ## Documentation
 
 - [`docs/cli-truescaler.md`](docs/cli-truescaler.md): full `truescaler.py` CLI reference and examples
-- [`docs/cli-find-scale.md`](docs/cli-find-scale.md): `find_scale.py` reference and comparison
 - [`docs/json-input.md`](docs/json-input.md): JSON payload contract for `truescaler.py`
 - [`docs/troubleshooting.md`](docs/troubleshooting.md): common failure modes and fixes
 

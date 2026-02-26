@@ -80,7 +80,6 @@ Check CLI flags:
 
 ```bash
 truescaler --help
-truescaler-find-scale --help
 ```
 
 Check test suite:
@@ -109,7 +108,6 @@ Then verify:
 
 ```bash
 truescaler --help
-truescaler-find-scale --help
 ```
 
 ## GitHub Release Install Fails
