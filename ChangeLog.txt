@@ -1,0 +1,13 @@
+ChangeLog
+---------
+
+2026-02-25
+- Added robust scale detection (run-length gcd, integer-block checks, autocorrelation fallback).
+- Added background removal (border sampling + flood-fill) and RGBA-aware downsampling.
+- Added CLI with JSON input, recursion, and output format handling.
+- Added tests and test images; integrated HEIC support (optional via pillow_heif).
+
+2026-02-26
+- Improved typing and strict type-checker compatibility.
+- Added HEIC test (skipped if pillow_heif unavailable).
+- Added README.md and ChangeLog.txt.
