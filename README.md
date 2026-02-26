@@ -1,11 +1,13 @@
 # TrueScaler
 
 TrueScaler detects pixel-art scale, crops whitespace/background, and downsamples images to true pixel size.
+## Disclaimer
+###I am not resposible for any data loss that may occur as a result of misuse and/or issues that the code may have.
 
 ## Project Provenance
 
 This repository has so far been primarily AI-generated, with human direction, review, and iterative edits.
-Treat all code and docs as needing normal engineering review before production use.
+This is not production-ready, so tread lightly, and be careful.
 
 ## CLI
 
