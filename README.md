@@ -1,8 +1,12 @@
+# This is a work in progress...
 # TrueScaler
-
+## A personal project designed to convert screenshots into their original resolution.
+### Use Cases
+- downscaing high-res photos of a low resolution image(eg. upscaled image) back to original quality with little to no loss in image quality.
+ 
 TrueScaler detects pixel-art scale, crops whitespace/background, and downsamples images to true pixel size.
 ## Disclaimer
-###I am not resposible for any data loss that may occur as a result of misuse and/or issues that the code may have.
+### I am not resposible for any data loss that may occur as a result of misuse and/or issues that the code may have.
 
 ## Project Provenance
 
