@@ -33,6 +33,13 @@ Or directly from GitHub Releases (CI-built bundles):
 bash install.sh --from-github owner/repo
 ```
 
+Using release assets directly (installer script is published separately):
+
+```bash
+curl -fsSL -o install.sh https://github.com/owner/repo/releases/download/v1.2.3/install.sh
+bash install.sh --from-github owner/repo --tag v1.2.3
+```
+
 Specific release tag:
 
 ```bash
@@ -95,6 +102,7 @@ Behavior:
   - builds bundles
   - uploads artifacts
   - publishes release assets:
+    - `install.sh`
     - `truescaler-bundle.tar.gz`
     - `truescaler-bundle-heif.tar.gz`
 

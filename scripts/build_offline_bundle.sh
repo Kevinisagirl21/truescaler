@@ -2,6 +2,7 @@
 set -euo pipefail
 
 # Build a release bundle with source files + predownloaded dependency wheels.
+# The installer script (install.sh) is intentionally shipped outside the bundle.
 # Result:
 #   dist/truescaler-bundle.tar.gz
 #
@@ -28,7 +29,7 @@ trap cleanup EXIT
 bundle_dir="$tmp_root/$BUNDLE_NAME"
 mkdir -p "$bundle_dir/wheels"
 
-for f in install.sh truescaler.py README.md; do
+for f in truescaler.py README.md; do
   if [[ ! -f "$REPO_ROOT/$f" ]]; then
     echo "Error: missing required file: $f" >&2
     exit 1

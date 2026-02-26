@@ -16,3 +16,4 @@ ChangeLog
 - Consolidated to a single CLI (`truescaler.py`) and removed `find_scale.py`.
 - Removed `truescaler-find-scale` installer command and related docs.
 - Updated offline bundle inputs to package only the unified CLI.
+- Published `install.sh` as a standalone release asset and updated release workflow artifacts.

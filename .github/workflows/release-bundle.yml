@@ -36,6 +36,7 @@ jobs:
         with:
           name: truescaler-bundles
           path: |
+            install.sh
             dist/truescaler-bundle.tar.gz
             dist/truescaler-bundle-heif.tar.gz
 
@@ -57,5 +58,6 @@ jobs:
         with:
           body_path: RELEASE_NOTES.md
           files: |
+            install.sh
             dist/truescaler-bundle.tar.gz
             dist/truescaler-bundle-heif.tar.gz
