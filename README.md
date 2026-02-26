@@ -2,6 +2,11 @@
 
 TrueScaler detects pixel-art scale, crops whitespace/background, and downsamples images to true pixel size.
 
+## Project Provenance
+
+This repository has so far been primarily AI-generated, with human direction, review, and iterative edits.
+Treat all code and docs as needing normal engineering review before production use.
+
 ## CLI
 
 - `truescaler.py`: full CLI with directory scanning, JSON input, progress control, and output format selection.
@@ -131,6 +136,14 @@ Examples:
 - [`docs/cli-truescaler.md`](docs/cli-truescaler.md): full `truescaler.py` CLI reference and examples
 - [`docs/json-input.md`](docs/json-input.md): JSON payload contract for `truescaler.py`
 - [`docs/troubleshooting.md`](docs/troubleshooting.md): common failure modes and fixes
+
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for contribution guidelines.
+
+## License
+
+This project is licensed under GPL-3.0. See [`LICENSE`](LICENSE).
 
 ## Testing
 
