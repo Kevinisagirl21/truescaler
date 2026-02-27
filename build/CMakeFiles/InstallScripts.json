@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/cajen/coding/pixel_art/build/cmake_install.cmake",
+		"/home/cajen/coding/pixel_art/build/cpp/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

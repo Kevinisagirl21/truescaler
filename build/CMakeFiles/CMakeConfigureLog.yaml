@@ -1,0 +1,2210 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/uname"
+      - "/home/cajen/.pyenv/shims/uname"
+      - "/home/cajen/.pyenv/bin/uname"
+      - "/home/cajen/.local/bin/uname"
+      - "/home/linuxbrew/.linuxbrew/bin/uname"
+      - "/home/linuxbrew/.linuxbrew/sbin/uname"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/home/cajen/.cargo/bin/uname"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/uname"
+      - "/usr/share/pyenv/shims/uname"
+      - "/usr/share/pyenv/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.12.73+deb13-amd64 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/gmake"
+      - "/home/cajen/.pyenv/shims/gmake"
+      - "/home/cajen/.pyenv/bin/gmake"
+      - "/home/cajen/.local/bin/gmake"
+      - "/home/linuxbrew/.linuxbrew/bin/gmake"
+      - "/home/linuxbrew/.linuxbrew/sbin/gmake"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
+      - "/home/cajen/.cargo/bin/gmake"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/gmake"
+      - "/usr/share/pyenv/shims/gmake"
+      - "/usr/share/pyenv/bin/gmake"
+      - "/usr/local/bin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/c++"
+      - "/home/cajen/.pyenv/shims/c++"
+      - "/home/cajen/.pyenv/bin/c++"
+      - "/home/cajen/.local/bin/c++"
+      - "/home/linuxbrew/.linuxbrew/bin/c++"
+      - "/home/linuxbrew/.linuxbrew/sbin/c++"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/c++"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/c++"
+      - "/home/cajen/.cargo/bin/c++"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/c++"
+      - "/usr/share/pyenv/shims/c++"
+      - "/usr/share/pyenv/bin/c++"
+      - "/usr/local/bin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/"
+    found: "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/cajen/coding/pixel_art/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/dlltool"
+      - "/home/cajen/.pyenv/shims/dlltool"
+      - "/home/cajen/.pyenv/bin/dlltool"
+      - "/home/cajen/.local/bin/dlltool"
+      - "/home/linuxbrew/.linuxbrew/bin/dlltool"
+      - "/home/linuxbrew/.linuxbrew/sbin/dlltool"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
+      - "/home/cajen/.cargo/bin/dlltool"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/dlltool"
+      - "/usr/share/pyenv/shims/dlltool"
+      - "/usr/share/pyenv/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/usr/games/dlltool"
+      - "/home/cajen/.spicetify/dlltool"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/dlltool"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/tapi"
+      - "/home/cajen/.pyenv/shims/tapi"
+      - "/home/cajen/.pyenv/bin/tapi"
+      - "/home/cajen/.local/bin/tapi"
+      - "/home/linuxbrew/.linuxbrew/bin/tapi"
+      - "/home/linuxbrew/.linuxbrew/sbin/tapi"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "/home/cajen/.cargo/bin/tapi"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/tapi"
+      - "/usr/share/pyenv/shims/tapi"
+      - "/usr/share/pyenv/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/local/games/tapi"
+      - "/usr/games/tapi"
+      - "/home/cajen/.spicetify/tapi"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/tapi"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-14.2"
+      - "gcc-ar-14"
+      - "gcc-ar14"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-14.2"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/gcc-ar-14.2"
+      - "/home/cajen/.pyenv/shims/gcc-ar-14.2"
+      - "/home/cajen/.pyenv/bin/gcc-ar-14.2"
+      - "/home/cajen/.local/bin/gcc-ar-14.2"
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ar-14.2"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ar-14.2"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-14.2"
+      - "/home/cajen/.cargo/bin/gcc-ar-14.2"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/gcc-ar-14.2"
+      - "/usr/share/pyenv/shims/gcc-ar-14.2"
+      - "/usr/share/pyenv/bin/gcc-ar-14.2"
+      - "/usr/local/bin/gcc-ar-14.2"
+      - "/bin/gcc-ar-14.2"
+      - "/usr/local/games/gcc-ar-14.2"
+      - "/usr/games/gcc-ar-14.2"
+      - "/home/cajen/.spicetify/gcc-ar-14.2"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/gcc-ar-14.2"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ar-14.2"
+    found: "/usr/bin/gcc-ar-14"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-14.2"
+      - "gcc-ranlib-14"
+      - "gcc-ranlib14"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/home/cajen/.pyenv/shims/"
+      - "/home/cajen/.pyenv/bin/"
+      - "/home/cajen/.local/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/cajen/.cargo/bin/"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/"
+      - "/usr/share/pyenv/shims/"
+      - "/usr/share/pyenv/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/home/cajen/.spicetify/"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-14.2"
+      - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/gcc-ranlib-14.2"
+      - "/home/cajen/.pyenv/shims/gcc-ranlib-14.2"
+      - "/home/cajen/.pyenv/bin/gcc-ranlib-14.2"
+      - "/home/cajen/.local/bin/gcc-ranlib-14.2"
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib-14.2"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ranlib-14.2"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2"
+      - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-14.2"
+      - "/home/cajen/.cargo/bin/gcc-ranlib-14.2"
+      - "/home/cajen/.nvm/versions/node/v24.13.0/bin/gcc-ranlib-14.2"
+      - "/usr/share/pyenv/shims/gcc-ranlib-14.2"
+      - "/usr/share/pyenv/bin/gcc-ranlib-14.2"
+      - "/usr/local/bin/gcc-ranlib-14.2"
+      - "/bin/gcc-ranlib-14.2"
+      - "/usr/local/games/gcc-ranlib-14.2"
+      - "/usr/games/gcc-ranlib-14.2"
+      - "/home/cajen/.spicetify/gcc-ranlib-14.2"
+      - "/home/cajen/.local/share/JetBrains/Toolbox/scripts/gcc-ranlib-14.2"
+      - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ranlib-14.2"
+    found: "/usr/bin/gcc-ranlib-14"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/cajen/coding/pixel_art/build/CMakeFiles/CMakeScratch/TryCompile-TThXlQ"
+      binary: "/home/cajen/coding/pixel_art/build/CMakeFiles/CMakeScratch/TryCompile-TThXlQ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cajen/coding/pixel_art/build/CMakeFiles/CMakeScratch/TryCompile-TThXlQ'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_637f5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_637f5.dir/build.make CMakeFiles/cmTC_637f5.dir/build
+        gmake[1]: Entering directory '/home/cajen/coding/pixel_art/build/CMakeFiles/CMakeScratch/TryCompile-TThXlQ'
+        Building CXX object CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (Debian 14.2.0-19) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_637f5.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/14/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_637f5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccpJGaxR.s
+        GNU C++17 (Debian 14.2.0-19) version 14.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        warning: MPFR header version 4.2.1 differs from library version 4.2.2.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/14"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/14
+         /usr/include/x86_64-linux-gnu/c++/14
+         /usr/include/c++/14/backward
+         /usr/lib/gcc/x86_64-linux-gnu/14/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: a0e1d70a4b6c50c7ed1b3d36dfd3f9a4
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_637f5.dir/'
+         as -v --64 -o CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpJGaxR.s
+        GNU assembler version 2.44 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.44
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_637f5
+        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_637f5.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (Debian 14.2.0-19) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_637f5' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_637f5.'
+         /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cca46UBj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_637f5 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 14.2.0
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cca46UBj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_637f5 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_637f5' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_637f5.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_637f5
+        gmake[1]: Leaving directory '/home/cajen/coding/pixel_art/build/CMakeFiles/CMakeScratch/TryCompile-TThXlQ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/14]
+          add: [/usr/include/x86_64-linux-gnu/c++/14]
+          add: [/usr/include/c++/14/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/14/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/14] ==> [/usr/include/c++/14]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/14] ==> [/usr/include/x86_64-linux-gnu/c++/14]
+        collapse include dir [/usr/include/c++/14/backward] ==> [/usr/include/c++/14/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/14/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/14/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/14;/usr/include/x86_64-linux-gnu/c++/14;/usr/include/c++/14/backward;/usr/lib/gcc/x86_64-linux-gnu/14/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/cajen/coding/pixel_art/build/CMakeFiles/CMakeScratch/TryCompile-TThXlQ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_637f5/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_637f5.dir/build.make CMakeFiles/cmTC_637f5.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/cajen/coding/pixel_art/build/CMakeFiles/CMakeScratch/TryCompile-TThXlQ']
+        ignore line: [Building CXX object CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (Debian 14.2.0-19) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_637f5.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_637f5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccpJGaxR.s]
+        ignore line: [GNU C++17 (Debian 14.2.0-19) version 14.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.2.1 differs from library version 4.2.2.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/14"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/14]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/14]
+        ignore line: [ /usr/include/c++/14/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/14/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: a0e1d70a4b6c50c7ed1b3d36dfd3f9a4]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_637f5.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpJGaxR.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.44]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_637f5]
+        ignore line: [/home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_637f5.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (Debian 14.2.0-19) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_637f5' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_637f5.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cca46UBj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_637f5 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/14/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cca46UBj.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_637f5] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 14.2.0]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cca46UBj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_637f5 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_637f5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14] ==> [/usr/lib/gcc/x86_64-linux-gnu/14]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/14;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Debian) 2.44
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/pybind11/FindPythonLibsNew.cmake:73 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/pybind11/pybind11Tools.cmake:44 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/pybind11/pybind11Common.cmake:237 (include)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "cpp/CMakeLists.txt:1 (find_package)"
+    mode: "program"
+    variable: "PYTHON_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python"
+    candidate_directories:
+      - "/home/cajen/.pyenv/versions/3.14.2/envs/pixel_art/"
+      - "/home/cajen/.pyenv/versions/3.14.2/envs/pixel_art/bin/"
+    searched_directories:
+      - "/home/cajen/.pyenv/versions/3.14.2/envs/pixel_art/python"
+    found: "/home/cajen/.pyenv/versions/3.14.2/envs/pixel_art/bin/python"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/pybind11/FindPythonLibsNew.cmake:287 (find_library)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/pybind11/pybind11Tools.cmake:44 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/pybind11/pybind11Common.cmake:237 (include)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "cpp/CMakeLists.txt:1 (find_package)"
+    mode: "library"
+    variable: "PYTHON_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14"
+    candidate_directories:
+      - "/home/cajen/.pyenv/versions/3.14.2/lib/x86_64-linux-gnu/"
+      - "/home/cajen/.pyenv/versions/3.14.2/lib/"
+    searched_directories:
+      - "/home/cajen/.pyenv/versions/3.14.2/lib/x86_64-linux-gnu/"
+    found: "/home/cajen/.pyenv/versions/3.14.2/lib/libpython3.14.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/pybind11/pybind11Common.cmake:332 (check_cxx_compiler_flag)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/pybind11/pybind11Common.cmake:377 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/pybind11/pybind11Common.cmake:438 (_pybind11_generate_lto)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "cpp/CMakeLists.txt:1 (find_package)"
+    checks:
+      - "Performing Test HAS_FLTO_AUTO"
+    directories:
+      source: "/home/cajen/coding/pixel_art/build/CMakeFiles/CMakeScratch/TryCompile-vbjWqA"
+      binary: "/home/cajen/coding/pixel_art/build/CMakeFiles/CMakeScratch/TryCompile-vbjWqA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "HAS_FLTO_AUTO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cajen/coding/pixel_art/build/CMakeFiles/CMakeScratch/TryCompile-vbjWqA'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7104c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7104c.dir/build.make CMakeFiles/cmTC_7104c.dir/build
+        gmake[1]: Entering directory '/home/cajen/coding/pixel_art/build/CMakeFiles/CMakeScratch/TryCompile-vbjWqA'
+        Building CXX object CMakeFiles/cmTC_7104c.dir/src.cxx.o
+        /usr/bin/c++ -DHAS_FLTO_AUTO  -std=gnu++17   -flto=auto -fno-fat-lto-objects -o CMakeFiles/cmTC_7104c.dir/src.cxx.o -c /home/cajen/coding/pixel_art/build/CMakeFiles/CMakeScratch/TryCompile-vbjWqA/src.cxx
+        Linking CXX executable cmTC_7104c
+        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7104c.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_7104c.dir/src.cxx.o -o cmTC_7104c  -flto=auto
+        gmake[1]: Leaving directory '/home/cajen/coding/pixel_art/build/CMakeFiles/CMakeScratch/TryCompile-vbjWqA'
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "cpp/CMakeLists.txt:1 (find_package)"
+    name: "pybind11"
+    configs:
+      -
+        filename: "pybind11Config.cmake"
+        kind: "cmake"
+      -
+        filename: "pybind11-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "pybind11"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/cajen/coding/pixel_art/build/CMakeFiles/pkgRedirects/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/coding/pixel_art/build/CMakeFiles/pkgRedirects/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.pyenv/shims/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.pyenv/shims/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.pyenv/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.pyenv/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.local/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.local/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/linuxbrew/.linuxbrew/share/cmake/pybind11/pybind11Config.cmake"
+      mode: "config"
+      version: "3.0.2"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "cpp/CMakeLists.txt:2 (find_package)"
+    name: "OpenCV"
+    components:
+      -
+        name: "imgcodecs"
+        required: true
+        found: true
+      -
+        name: "imgproc"
+        required: true
+        found: true
+    configs:
+      -
+        filename: "OpenCVConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "opencv-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "OpenCV"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/cajen/coding/pixel_art/build/CMakeFiles/pkgRedirects/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/coding/pixel_art/build/CMakeFiles/pkgRedirects/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.pyenv/shims/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.pyenv/shims/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.pyenv/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.pyenv/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.local/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/cajen/.local/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/linuxbrew/.linuxbrew/lib/cmake/opencv4/OpenCVConfig.cmake"
+      mode: "config"
+      version: "4.13.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/cajen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.pyenv/plugins/pyenv-virtualenv/shims"
+        - "/home/cajen/.pyenv/bin"
+        - "/home/cajen/.local/bin"
+        - "/home/cajen/.nvm/versions/node/v24.13.0/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/share/pyenv/shims"
+        - "/usr/share/pyenv/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/cajen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/cajen/.cargo/bin"
+        - "/home/cajen/.spicetify"
+        - "/home/cajen/.spicetify"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...

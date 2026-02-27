@@ -3,7 +3,6 @@ import json
 import subprocess
 import sys
 from pathlib import Path
-from typing import Tuple
 
 import numpy as np
 from PIL import Image
@@ -28,7 +27,7 @@ def _make_scaled_image(path: Path) -> None:
     Image.fromarray(img).save(path)
 
 
-def _make_nested_image_tree(root: Path, ext: str = 'png') -> Tuple[Path, Path]:
+def _make_nested_image_tree(root: Path, ext: str = 'png') -> tuple[Path, Path]:
     root_img = root / f'root_image.{ext}'
     nested_dir = root / 'nested'
     nested_dir.mkdir(parents=True, exist_ok=True)
@@ -38,30 +37,14 @@ def _make_nested_image_tree(root: Path, ext: str = 'png') -> Tuple[Path, Path]:
     return root_img, nested_img
 
 
-def test_detect_scale_basic() -> None:
-    true_w = 5
-    kx = 3
-    row = []
-    for i in range(true_w):
-        color = [(i * 37) % 256, (i * 61) % 256, (i * 17) % 256]
-        row.extend([color] * kx)
-    arr = np.array([row] * 6, dtype=np.uint8)
-    s = truescaler.detect_scale(arr, axis=1)
-    assert s == kx
-
-
-def test_find_integer_block_scale_blocks() -> None:
-    true_w, true_h = 7, 6
-    kx, ky = 4, 5
-    w = true_w * kx
-    h = true_h * ky
-    img = np.zeros((h, w, 3), dtype=np.uint8)
-    for ty in range(true_h):
-        for tx in range(true_w):
-            color = [((tx + 1) * 40) % 256, ((ty + 1) * 50) % 256, ((tx + ty) * 30) % 256]
-            img[ty * ky:(ty + 1) * ky, tx * kx:(tx + 1) * kx] = color
-    found_kx, found_ky = truescaler.find_integer_block_scale(img, require_square=False, tolerance=0, max_checks=10000)
-    assert found_kx == kx and found_ky == ky
+def test_process_file_wrapper_contract(tmp_path: Path) -> None:
+    p = tmp_path / 'contract.bmp'
+    _make_scaled_image(p)
+    out_dir = tmp_path / 'out_contract'
+    out_dir.mkdir()
+    res = truescaler.process_file(str(p), out_dir=str(out_dir), write_downsample=True, verbose=False)
+    assert set(res.keys()) == {'scale_x', 'scale_y', 'true_w', 'true_h', 'out'}
+    assert Path(str(res['out'])).exists()
 
 
 def test_cli_no_save_and_json(tmp_path: Path) -> None:
@@ -209,4 +192,3 @@ def test_cli_json_out_format_bmp_and_jpg_rejected(tmp_path: Path) -> None:
     bad = _run(bad_cmd)
     assert bad.returncode != 0
     assert 'supported formats: png,bmp' in bad.stderr.lower()
-

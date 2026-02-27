@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/cajen/coding/pixel_art/build/cpp",
+  "command": "/usr/bin/c++ -D_truescaler_core_EXPORTS -I/home/cajen/coding/pixel_art/cpp/include -isystem /home/linuxbrew/.linuxbrew/include -isystem /home/cajen/.pyenv/versions/3.14.2/include/python3.14 -isystem /home/linuxbrew/.linuxbrew/Cellar/opencv/4.13.0_3/include/opencv4 -std=gnu++17 -fPIC -fvisibility=hidden -flto=auto -fno-fat-lto-objects -o CMakeFiles/_truescaler_core.dir/src/core.cpp.o -c /home/cajen/coding/pixel_art/cpp/src/core.cpp",
+  "file": "/home/cajen/coding/pixel_art/cpp/src/core.cpp",
+  "output": "cpp/CMakeFiles/_truescaler_core.dir/src/core.cpp.o"
+}
+]

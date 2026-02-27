@@ -1,0 +1,20 @@
+[build-system]
+requires = ["scikit-build-core>=0.10", "pybind11>=2.12", "setuptools>=69", "wheel"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "truescaler-core"
+version = "1.0.2"
+description = "Native C++ backend for TrueScaler with Python CLI orchestration"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "Pillow>=10.0",
+]
+
+[project.optional-dependencies]
+heic = ["pillow-heif>=0.16"]
+
+[tool.scikit-build]
+cmake.minimum-version = "3.18"
+wheel.packages = []

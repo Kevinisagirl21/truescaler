@@ -40,7 +40,9 @@ def test_process_known_scaled_images(tmp_path: Path):
 
 
 def test_process_various_formats_run(tmp_path: Path):
-    base = Path('.tests/test-images')
+    base = Path('tests/test-images')
+    if not base.exists():
+        base = Path('.tests/test-images')
     files = list(base.glob('*'))
     out_dir = tmp_path / 'outs_all'
     out_dir.mkdir()

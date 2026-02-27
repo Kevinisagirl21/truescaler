@@ -1,160 +1,115 @@
-# This is a work in progress...
 # TrueScaler
-## A personal project designed to convert screenshots into their original resolution.
-### Use Cases
-- downscaing high-res photos of a low resolution image(eg. upscaled image) back to original quality with little to no loss in image quality.
- 
+
 TrueScaler detects pixel-art scale, crops whitespace/background, and downsamples images to true pixel size.
+
 ## Disclaimer
-### I am not resposible for any data loss that may occur as a result of misuse and/or issues that the code may have.
+
+This is a personal project. Use at your own risk.
 
 ## Project Provenance
 
 This repository has so far been primarily AI-generated, with human direction, review, and iterative edits.
-This is not production-ready, so tread lightly, and be careful.
 
-## CLI
+## Architecture
 
-- `truescaler.py`: full CLI with directory scanning, JSON input, progress control, and output format selection.
+- `truescaler.py`: Python CLI/orchestration (`argparse`, JSON input, directory traversal, progress output)
+- `_truescaler_core`: required native C++ backend module (pybind11 + OpenCV)
 
 ## Requirements
 
 - Python 3.10+
-- `Pillow`
-- `numpy`
-- Optional: `pillow_heif` for HEIC/HEIF input support
+- Native build deps for source installs: C++ compiler, CMake, OpenCV development libraries
+- Runtime Python packages:
+  - `numpy`
+  - `Pillow`
+  - optional `pillow-heif` for HEIC/HEIF input support
 
-## Install (single command)
+## Install
 
-From the project directory (online install):
+From repo source (developer/local):
+
+```bash
+python -m pip install -e .
+```
+
+Run:
+
+```bash
+python truescaler.py --help
+```
+
+Single-command installer:
 
 ```bash
 ./install.sh
 ```
 
-Or from an offline release bundle (no end-user dependency download):
+Offline release bundle:
 
 ```bash
 ./install.sh --bundle truescaler-bundle.tar.gz
 ```
 
-Or directly from GitHub Releases (CI-built bundles):
+GitHub release bundle:
 
 ```bash
 ./install.sh --from-github owner/repo
 ```
 
-Using release assets directly (installer script is published separately):
-
-```bash
-curl -fsSL -o install.sh https://github.com/owner/repo/releases/download/v1.2.3/install.sh
-./install.sh --from-github owner/repo --tag v1.2.3
-```
-
-Specific release tag:
-
-```bash
-./install.sh --from-github owner/repo --tag v1.2.3
-```
-
-Install HEIC-enabled release asset (if published):
-
-```bash
-./install.sh --from-github owner/repo --bundle-name truescaler-bundle-heif.tar.gz
-```
-
-This installs:
-
-- virtualenv + dependencies under `~/.local/share/truescaler`
-- commands in `~/.local/bin`:
-  - `truescaler`
-
-If `~/.local/bin` is not on your `PATH`, add:
-
-```bash
-export PATH="$HOME/.local/bin:$PATH"
-```
-
-Optional HEIC dependency install:
-
-```bash
-INCLUDE_HEIF=1 ./install.sh
-```
-
-## Build End-User Offline Bundle (maintainers)
-
-Package source + dependency wheels into one archive:
+## Build Offline Bundle (maintainers)
 
 ```bash
 bash scripts/build_offline_bundle.sh
 ```
 
-With HEIC wheel included:
+With HEIC runtime wheel included:
 
 ```bash
 INCLUDE_HEIF=1 bash scripts/build_offline_bundle.sh
 ```
 
-Output archive:
+Outputs:
 
 - `dist/truescaler-bundle.tar.gz`
+- `dist/truescaler-bundle-heif.tar.gz`
+- `dist/wheels/*.whl` (native backend wheels)
 
-## CI Release Packaging
+## CI and Release
 
-GitHub Actions workflow:
-
-- `.github/workflows/release-bundle.yml`
-
-Behavior:
-
-- On `workflow_dispatch`:
-  - builds offline bundle artifacts and uploads them to workflow artifacts
-- On tag push matching `v*`:
-  - builds bundles
-  - uploads artifacts
-  - publishes release assets:
-    - `install.sh`
-    - `truescaler-bundle.tar.gz`
-    - `truescaler-bundle-heif.tar.gz`
+- CI (`.github/workflows/ci.yml`) installs/builds native backend with `pip install -e .`, verifies `_truescaler_core` import, then runs `pytest -q`.
+- Release workflow (`.github/workflows/release-bundle.yml`) builds offline bundles and publishes:
+  - `install.sh`
+  - native wheel(s)
+  - bundle archives
 
 ## Quick Start
 
 ```bash
-truescaler input.png
-truescaler images/ --out-dir downsamples/
-truescaler images/ --no-recursive --out-dir downsamples/
-truescaler images/ --no-prgresss
-truescaler --json '{"inputs":["a.png"],"out_dir":"outs","out_format":"bmp"}'
-truescaler --json-file args.json
+python truescaler.py input.png
+python truescaler.py images/ --out-dir downsamples/
+python truescaler.py --json '{"inputs":["a.png"],"out_dir":"outs","out_format":"bmp"}'
 ```
 
-Output files are written as:
+Output naming:
 
 `<input_stem>_<true_w>x<true_h>.<ext>`
 
-Examples:
-
-- `sprite_16x16.png`
-- `character_32x48.bmp`
-
 ## Documentation
 
-- [`docs/cli-truescaler.md`](docs/cli-truescaler.md): full `truescaler.py` CLI reference and examples
-- [`docs/json-input.md`](docs/json-input.md): JSON payload contract for `truescaler.py`
-- [`docs/troubleshooting.md`](docs/troubleshooting.md): common failure modes and fixes
+- [`docs/cli-truescaler.md`](docs/cli-truescaler.md)
+- [`docs/json-input.md`](docs/json-input.md)
+- [`docs/troubleshooting.md`](docs/troubleshooting.md)
 
 ## Contributing
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for contribution guidelines.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## License
 
-This project is licensed under GPL-3.0. See [`LICENSE`](LICENSE).
+GPL-3.0 (`LICENSE`).
 
 ## Testing
 
 ```bash
 pytest -q
 ```
-
-HEIC-specific tests require `pillow_heif` with HEIC codec support.

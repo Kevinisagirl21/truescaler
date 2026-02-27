@@ -1,0 +1,13 @@
+/home/cajen/coding/pixel_art/build/CMakeFiles/edit_cache.dir
+/home/cajen/coding/pixel_art/build/CMakeFiles/rebuild_cache.dir
+/home/cajen/coding/pixel_art/build/CMakeFiles/list_install_components.dir
+/home/cajen/coding/pixel_art/build/CMakeFiles/install.dir
+/home/cajen/coding/pixel_art/build/CMakeFiles/install/local.dir
+/home/cajen/coding/pixel_art/build/CMakeFiles/install/strip.dir
+/home/cajen/coding/pixel_art/build/cpp/CMakeFiles/_truescaler_core.dir
+/home/cajen/coding/pixel_art/build/cpp/CMakeFiles/edit_cache.dir
+/home/cajen/coding/pixel_art/build/cpp/CMakeFiles/rebuild_cache.dir
+/home/cajen/coding/pixel_art/build/cpp/CMakeFiles/list_install_components.dir
+/home/cajen/coding/pixel_art/build/cpp/CMakeFiles/install.dir
+/home/cajen/coding/pixel_art/build/cpp/CMakeFiles/install/local.dir
+/home/cajen/coding/pixel_art/build/cpp/CMakeFiles/install/strip.dir
